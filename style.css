@@ -1,0 +1,150 @@
+
+
+
+* {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.mainContent{
+    color: #FFF;
+}
+.flex {
+    display: flex;
+}
+
+
+
+/* HEADER */
+.headerMain {
+    background-color: #000000;
+    color: #FFF;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    padding: 40px 4%;
+}
+
+.headerMain .logo {
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    color: #fcfbfb;
+}
+header a {
+    color: #999999;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: rgb(3, 153, 223);
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+/* FIM HEADER */
+
+
+/*TOPO DO SITE */
+section.topo-do-site {
+    padding: 10px 0%;
+}
+
+ section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.topo-do-site h2 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 50px;
+    
+}
+
+.topo-do-site .txt-topo-site h2 span {
+    color: rgb(3, 153, 223);
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 22px;
+}
+.topo-do-site .img-topo-site img {
+    position: relative;
+    
+    max-width: 900px; 
+    max-height: 500px; 
+    width: auto; 
+    height: auto; 
+}
+/* FIM DO TOPO DO SITE */
+/* REDES SOCIAIS */
+.redes{
+    background-color: rgb(124, 124, 124);
+    margin: -13px 0px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    align-items: center;
+    
+}
+.redes  a{
+    display: block;
+    padding: 20px;
+  
+}
+.redes .git img{
+    max-width: 51px; 
+    max-height: 100px; 
+    width: 100; 
+    height: 100;
+    
+}
+.redes .insta img{
+    max-width: 50px; 
+    max-height: 100px; 
+    width: 100; 
+    height: 100;
+}
+.redes .linkedin img{
+    max-width: 55px; 
+    max-height: 100px; 
+    width: 100; 
+    height: 100;
+}
+
+
+
+
+/* FIM REDES SOCIAIS */
