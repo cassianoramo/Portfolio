@@ -12,13 +12,16 @@
 body {
     background-color: #000;
     height: 100vh;
+    font-family: 'Syne', sans-serif;
 }
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+    
 }
 .mainContent{
     color: #FFF;
+    
 }
 .flex {
     display: flex;
@@ -44,7 +47,7 @@ body {
 .headerMain .logo {
     font-family: 'Teko', sans-serif;
     font-size: 2rem;
-    color: #fcfbfb;
+    color: rgb(3, 153, 223);
 }
 header a {
     color: #999999;
@@ -121,8 +124,8 @@ section.topo-do-site {
 }
 .redes  a{
     display: block;
-    padding: 20px;
-  
+    padding-inline: 40px;
+    padding-block: 10px;
 }
 .redes .git img{
     max-width: 51px; 
@@ -144,7 +147,82 @@ section.topo-do-site {
     height: 100;
 }
 
-
-
-
 /* FIM REDES SOCIAIS */
+/*SOBRE*/
+.sobre{
+    color: #FFF;
+    
+
+    line-height: 40px;
+    padding: 80px;
+    display: inline-flex;
+    padding-block: 100px;
+    gap: 80px;
+   
+}
+.sobre h2 p{
+    line-height: 25px;
+
+}
+.sobre h2 p span{
+    color: rgb(3, 153, 223);
+}
+.sobre h2{
+    font-size: 30px;
+    font-family: 'Fragment Mono', monospace;
+}
+.sobre .img-sobre img{
+    max-width: 300px; 
+    max-height: 500px; 
+    width: auto; 
+    height: auto; 
+}
+/*FIM SOBRE*/
+/*EXPERIENCIA*/
+section.especiliadades {
+    padding: 40px 4%;
+}
+
+section.especiliadades .flex {
+    gap: 60px;
+}
+
+.especiliadades .especialidades-box {
+    color: black;
+    background-color: rgb(124, 124, 124);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    /*box-shadow: 0 0 20px rgb(3, 153, 223);*/
+}
+
+/*.especiliadades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}*/
+
+.especiliadades .especialidades-box i {
+    font-size: 70px;
+    color: #00FF08;
+}
+
+.especiliadades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+.especiliadades .especialidades-box img {
+    margin: 20px;
+    max-width: 85px; 
+    max-height: 100px; 
+    width: auto; 
+    height: auto;
+}
+.titulo {
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
