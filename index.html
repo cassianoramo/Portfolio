@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/icon.png" type="image/png">
     <title>Cassiano de Ramos | Portfólio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap" rel="stylesheet">
@@ -26,11 +27,11 @@
          <nav class="menu-desktop">
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Experiência</a></li>
-                <li><a href="#">Educação</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contatos">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -63,7 +64,7 @@
             </div>  
         </section>
         <section class="interface">
-            <div class="sobre">
+            <div class="sobre" id="sobre">
                 <div class="img-sobre">
                     <img src="assets/abc.png" alt="">
                 </div>
@@ -80,7 +81,7 @@
                 </h2>
             </div>
         </section>
-        <section class="especiliadades">
+        <section class="especialidades">
             <div class="interface">
                 <h2 class="titulo">CONHECIMENTOS E APTIDÕES</h2>
                 <div class="flex">
@@ -125,7 +126,7 @@
             </div><!--interface-->
         </section><!--especiliadades-->
         <section class="experiencia">
-            <div class="interface">
+            <div class="interface" id="experiencia">
                 <h2 class="titulo">EXPERIÊNCIA</h2>
                 <div>
                     <div class="experiencia-box">
@@ -182,9 +183,9 @@
                    
                 </div><!--flex-->
             </div><!--interface-->
-        </section><!--especiliadades-->
+        </section><!--experiencia-->
         <section class="educacao">
-            <div class="interface">
+            <div class="interface" id="educacao">
                 <h2 class="titulo">EDUCAÇÃO</h2>
                 <div class="flex">
                     <div class="educacao-box">
@@ -192,24 +193,121 @@
                         <div class="flex">
                             <img src="assets/Rjj1Cpny_400x400.jpg" alt="">
                             <div>
-                                <h3>ATITUS Educação</h3>
-                                <h2>Ciência da Computação  2023/ 2º Semestre</h2>
+                                <h3>ATITUS</h3>
+                                <h2>Ciência da Computação</h2>
+                                <h2>2023</h2>
                             </div>
                         </div>
                         <div class="linha"></div>
-                        <div class="flex">
+                        
                             <p>
                                 <ul>
-                                    <li>Mecânico de Torre de Leopard 1A5 BR (Sistemas Elétricos e Hidráulicos);</li>
-                                    <li>Operador de Simulador;</li>
-                                    <li>Gestão, fiscalização e instrução de pessoal.</li>
+                                    <li>Programação em Java;</li>
+                                    <li>Banco de Dados;</li>
+                                    <li>Desenvolvimento de APIs RESTful;</li>
+                                    <li>Arquitetura/Engenharia de Software;</li>
+                                    <li>Estrutura de Dados;</li>
+                                    <li>UX/UI;</li>
+                                    <li>Estatística descritiva e Análise Exploratória de Dados (EDA).</li>
                                 </ul>
                             </p>
-                        </div>
+                        
                     </div><!--especialidades-box-->
+                    <div class="educacao-box">
+                        <i class="bi bi-code-square"></i>
+                        <div class="flex">
+                            <img src="assets/senac.jpg" alt="">
+                            <div>
+                                <h3>SENAC</h3>
+                                <h2>Programação de Jogos Digitais  </h2>
+                                <h2>2017 - 2018</h2>
+                            </div>
+                        </div>
+                        <div class="linha"></div>
+                       
+                            <p>
+                                <ul>
+                                    <li>Linguagem C#;</li>
+                                    <li>Engine Unity 3D;</li>
+                                    <li>Programar e integrar os elementos multímidias no jogo digital;</li>
+                                    <li>Programar jogos digitais multiplayer;</li>
+                                    <li>Aprimorar e realizar manutenção em jogos digitais;</li>
+                                    <li>Realizar testes e localização de bugs em jogos digitais;</li>
+                                    
+                                </ul>
+                            </p>
+                        
+                    </div>
+                    <div class="educacao-box">
+                        <i class="bi bi-code-square"></i>
+                        <div class="flex">
+                            <img src="assets/senai.jpg" alt="">
+                            <div>
+                                <h3>SENAI</h3>
+                                <h2>Eletroeletrônica  </h2>
+                                <h2>2015 - 2017</h2>
+                            </div>
+                        </div>
+                        <div class="linha"></div>
+                        
+                            <p>
+                                <ul>
+                                    <li>Eletricidade Predial;</li>
+                                    <li>Eletricidade Industrial;</li>
+                                    <li>Automação Industrial;</li>
+                                    <li>Eletrônica;</li>
+                                    <li>Programação de CLP;</li>
+                                    <li>Confecção e interpretação de plantas baixas;</li>
+                                    <li>AutoCAD;</li>
+                                    <li>SketchUp.</li>
+                                </ul>
+                            </p>
+                        
+                    </div>
                 </div><!--flex-->
             </div><!--interface-->
-        </section><!--especiliadades-->
+        </section><!--educacao-->
+        <section class="portfolio">
+            <div class="interface" id="portfolio">
+                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(assets/broken.jpg);">
+                        <a href="https://hanzomyazaki.itch.io/broken-system"><div class="overlay">Broken System <br>Unity Game</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(assets/music.jpg);">
+                        <div class="overlay">Vibemo <br>Music Player</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(assets/p2.jpg);">
+                        <div class="overlay">Sky Savvy</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
     </main>
+    <footer>
+        <div class="interface" id="contatos">
+            <div class="flex">
+                <ul>
+                    <h3>Contatos</h3>
+                </ul>
+                <ul>
+                    <div class="contatos">
+                        <p><br>
+                            Email: cassianoramos48@gmail.com <br>
+                            Telefone: 54 996050197 <br>
+                            Cidade: Passo Fundo/RS <br>
+                            Linkedin: <a href="https://www.linkedin.com/in/cassiano-ramos/">Cassiano Ramos</a>
+                        </p>
+                    </div>
+                </ul>
+                
+            </div>
+            <div class="rodape">
+                <p>© Cassiano de Ramos, 2023</p>
+            </div>
+           
+        </div>
+    </footer>
+ 
 </body>
 </html>
